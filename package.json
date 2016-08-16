@@ -1,0 +1,19 @@
+{
+  "name": "sab-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine-test spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heysabs/sab-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heysabs/sab-express/issues"
+  },
+  "homepage": "https://github.com/heysabs/sab-express#readme"
+}
