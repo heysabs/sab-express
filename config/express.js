@@ -17,6 +17,14 @@ module.exports = function() {
     app.use(compress());
   }
 
+// allow cors
+
+  app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-ALlow-Header", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
+
   app.use(bodyParser.urlencoded({
       extended: true
   }));
