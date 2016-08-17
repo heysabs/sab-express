@@ -1,3 +1,10 @@
 language: node_js
 node_js:
 - node
+deploy:
+  provider: heroku
+  api_key:
+    secure: acI1lsZP9/7a8iMcXDyuReeNtCE35PCCzYZjzHZI+sdxOumpzTj4mOuPHjd2coBecI3sbD7zTXuyRQw2/knbTbhPRFf3djUeIbhMYwI6uOr33I0XOaFWZ3SNMZ7fapd8FFpcQj0TfUyRCSt3HT4t3yAO4AUSn5tFB+Eb4PquLHCIG469/Zubl0R/Ys8BjhtZSO6GUlYHQqqHDSDpsBRUA7tnybm2PdDzA0ffxatLwziryy73B8EsX32wyLCU/pSTBO9/ZCjEFkVG/v/t/VzWnP5Xb5bc/ggb96hgAFku8dIm7cQcTwNgHJQ/ycUNs37z398/AyXwg398OwCD2smYEyrgwPvWSLRZI8OtqVswyA23EBmOo9DlURVpFUJ3cKDX2ohCBofwoEWXdYtcpEglUgYmgXVmb3HOxeNrJzWy3dGL+w9bKvBZOX7LFhxuAMQhs78OKpXyid0baIEeIMKuSlrt8KS1gw4DKNl8TGnl9uyKx1sIUJMGJ5WgW8+EAk5YmKkI0+H1gYl/PWUYn4raUz9DjGhbVCWzmYMVM1Yx62Kf6yo6ifPqYizjJJe6tfst9fs4IDVPE0F4NCfaP+l9GcbqPgSCHIAkpF7S0uC6jtBDFHaCEj7KcNoggLhizitXdr99S2lZBV6tqVeOI1AxTKmezfmUBimvxC5OwjBkWNo=
+  app: obscure-oasis-71350
+  on:
+    repo: heysabs/sab-express
